@@ -1,0 +1,61 @@
+*{
+    margin: 0;
+    padding: 0;
+    height: auto;
+    width: auto;
+    font-family: 'Josefin Sans';
+    scroll-behavior: smooth;
+}
+
+.inicio{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(#241486 0%, #4727CD 100%);
+    margin: auto;
+    height: 100vh;
+    color: white;
+}
+
+.inicio > h1{
+    font-size: 3rem;
+    margin-top: 20%;
+}
+
+.inicio > p1{
+    font-size: 1.5rem;
+    margin-bottom: 5%;
+}
+
+.inicio > a{
+    text-decoration: none;
+    font-size: 3rem;
+    font-weight: bold;
+    letter-spacing: 0.2px;
+    color: white;
+    margin-bottom: 20%;
+    padding: 12px 30px;
+    border-radius: 15px;
+    background: linear-gradient(90deg, #241486 0%, #4727CD 100%);
+    box-shadow: 0 1px 24px rgba(0, 0, 0, 0.5);
+    transition: background-color 2s ease, box-shadow 0.7s ease;
+}
+
+.inicio > a:hover{
+    background: linear-gradient(0deg, #241486 0%, #4727CD 100%);
+    box-shadow: 0 1px 24px rgba(255, 255, 255, 0.5);
+    color:white;
+}
+/*Fim do CSS do ínicio*/
+/*Começo do CSS do Sobre*/
+.sobre{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(0deg,#090520 0%, #4727CD 100%);
+    margin: auto;
+    height: 100vh;
+    color: white;
+}
